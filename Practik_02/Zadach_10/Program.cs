@@ -12,7 +12,7 @@ int num1 = num % 100 / 10;
 
 if (num < 100 || num > 999)
 {
-    Console.WriteLine("Введите трехзначное число: ");
+    Console.WriteLine("Введите трехзначное число!!! ");
 }
 
 else Console.WriteLine($"Вторая цифра: {num1}");

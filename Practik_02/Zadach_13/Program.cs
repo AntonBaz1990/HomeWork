@@ -21,6 +21,15 @@ Console.WriteLine($"Третья цифра: {num1}");
 
 
 
+// Альтернативное решение
+//Console.Clear();
 
+//Console.WriteLine("Введите трехзначное число: ");
+//int num = int.Parse(Console.ReadLine()!);
 
-
+//while (num>1000)
+//{
+//num/=10;
+//}
+//int num1 = num % 10;
+//Console.WriteLine($"Третья цифра: {num1}");
